@@ -24,7 +24,7 @@ const Login: FC = () => {
     formState: {errors},
   } = useForm<LoginType>({
     resolver: yupResolver(schema),
-    defaultValues: {login: 'admin@admin.com', password: 'admin123'}
+    defaultValues: {login: 'user1', password: 'pass1'}
   })
 
   useEffect(() => {
