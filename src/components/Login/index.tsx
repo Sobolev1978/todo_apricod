@@ -59,7 +59,7 @@ const Login: FC = () => {
             />
             {errors.login &&
 							<span style={{color: "red"}}>
-              *Email* is mandatory
+              *Login* is mandatory
               </span>
             }
             {errors.login
