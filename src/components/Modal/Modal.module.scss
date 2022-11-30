@@ -1,0 +1,50 @@
+.modal {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 900;
+  padding: 0 5px;
+  box-sizing: border-box;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.content {
+  border-radius: 8px;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 2rem;
+  position: relative;
+  width: 90%;
+  background-color: #ecedf6;
+  //overflow-x: scroll;
+
+  /* полоса прокрутки (скроллбар) */
+  &::-webkit-scrollbar {
+    width: 0; /* ширина для вертикального скролла */
+  }
+
+  .close {
+    background-color: #ecedf6;
+    position: absolute;
+    right: 0;
+    top: -45px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+
+  .modalBtn {
+    margin-top: 30px;
+  }
+}

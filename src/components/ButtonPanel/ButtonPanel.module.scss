@@ -1,0 +1,16 @@
+.panelBlock {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    background-color: #cccdde;
+
+    &:hover {
+      background-color: #cccdde;
+    }
+  }
+}
+
+.panelBlock button.active {
+  background-color: #646ff0;
+}

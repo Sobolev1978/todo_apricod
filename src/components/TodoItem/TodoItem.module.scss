@@ -1,0 +1,34 @@
+.item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  .buttonBlock {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      background-color: #eeeeee;
+      border-radius: 4px;
+      color: #585858;
+      font-size: 20px;
+      padding: 8px;
+      transition: all .5s ease;
+
+      &:hover {
+        background-color: #dedfe1;
+      }
+    }
+  }
+
+  span {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+.item.completed {
+  text-decoration: line-through;
+}

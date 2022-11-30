@@ -1,0 +1,25 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Hello, world!",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "title": "React",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "JavaScript",
+      "completed": false
+    }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "password": "pass1"
+    }
+  ]
+}
