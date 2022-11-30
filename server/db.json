@@ -21,5 +21,6 @@
       "id": "user1",
       "password": "pass1"
     }
-  ]
+  ],
+  "no-cors": true
 }
