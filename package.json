@@ -36,7 +36,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server -w server/db.json -p 3001 --nc true",
+    "server": "json-server -w server/db.json -p 3001 --nc false",
     "deploy": "gh-pages -d build",
     "predeploy": "yarn run build"
   },
