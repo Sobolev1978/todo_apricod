@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todo_apricod/static/css/main.a5018486.css",
+    "main.js": "/todo_apricod/static/js/main.a131d93e.js",
+    "index.html": "/todo_apricod/index.html",
+    "main.a5018486.css.map": "/todo_apricod/static/css/main.a5018486.css.map",
+    "main.a131d93e.js.map": "/todo_apricod/static/js/main.a131d93e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5018486.css",
+    "static/js/main.a131d93e.js"
+  ]
+}
