@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/todo_apricod/static/css/main.a5018486.css",
+    "main.css": "/todo_apricod/static/css/main.0b9eb580.css",
     "main.js": "/todo_apricod/static/js/main.8b694a69.js",
     "index.html": "/todo_apricod/index.html",
-    "main.a5018486.css.map": "/todo_apricod/static/css/main.a5018486.css.map",
+    "main.0b9eb580.css.map": "/todo_apricod/static/css/main.0b9eb580.css.map",
     "main.8b694a69.js.map": "/todo_apricod/static/js/main.8b694a69.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5018486.css",
+    "static/css/main.0b9eb580.css",
     "static/js/main.8b694a69.js"
   ]
 }
